@@ -187,7 +187,7 @@ ZMK_MACRO(leader_sft, bindings = <&sk LSHFT &leader>;)
 
 /* Keymap */
 
-//ZMK_CONDITIONAL_LAYER(sys, NAV FN, SYS) // NAV + FN --> SYS.
+ZMK_CONDITIONAL_LAYER(sys, NAV FN, SYS) // NAV + FN --> SYS.
 
 #ifndef ZMK_BASE_LAYER
   #define ZMK_BASE_LAYER(name, LT, RT, LM, RM, LB, RB, LH, RH)                 \
